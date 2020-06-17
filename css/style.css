@@ -3,17 +3,17 @@
     font-family: 'Open Sans', sans-serif;
  */
 
-
 body {
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    max-width: 1520px;
 }
 
 #backgroundImg-div {
     position: fixed;
     z-index: -2;
     height: 800px;
-    width: 100%;
+    width: 1520px;
     background-size: cover;
     background-image: url(https://colorlib.com/preview/theme/university/images/big_image_2.jpg);
     background-repeat: no-repeat;
@@ -102,12 +102,21 @@ nav li a:link, nav li a:visited {
 
 #search-section {
     background-color: rgba(0, 0, 0, 0.222);
-    padding: 200px 0px;
-    /* background-image: url(https://colorlib.com/preview/theme/university/images/big_image_2.jpg);
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-size: cover; */
+    padding: 180px 0px;
+
 }
+/* #search-section::after {
+    content: "";
+    background-image: url(https://colorlib.com/preview/theme/university/images/big_image_2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  } */
 
 #search-section h3 {
     font-size: 2.5rem;
@@ -133,7 +142,6 @@ nav li a:link, nav li a:visited {
     font-family: inherit;
     color: #495057;
 }
-
 
 #search-section p {
     color: white;
@@ -474,7 +482,6 @@ footer h5 {
     font-weight: 300;
 }
 
-
 #div1-footer h4 {
     font-weight: 300;
     font-size: 1.75rem;
@@ -534,8 +541,6 @@ footer h5 {
     margin-left: 20px;
 }
 
-
-
 #div4-footer li img {
     float: left;
 }
@@ -546,14 +551,17 @@ footer h5 {
     color: gray;
     margin-top: 50px;
 }
+
 #div5-footer p {
     display: inline-block;
 }
+
 #div5-footer ul {
     float: right;
     position: relative;
     top: -3.5px;
 }
+
 #div5-footer li {
     display: inline-block;
 }
