@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+/*     font-family: 'Rubik', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
+ */
+
+
+body {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#backgroundImg-div {
+    position: fixed;
+    z-index: -2;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://colorlib.com/preview/theme/university/images/big_image_2.jpg);
+    background-repeat: no-repeat;
+}
+
+.blueBtn {
+    font-size: large;
+    padding: 7px 25px;
+    margin-left: auto;
+    border-radius: 3px;
+    background-color: #11CBD7;
+    color: white;
+    border: none;
+}
+
+.blueBtn-a :hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #11CBD7;
+    transition: 0.5s;
+}
+
+/* ------------------HEADER------------------ */
+
+header {
+    background-color: white;
+}
+
+nav {
+    width: 100;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    padding: 25px 0;
+}
+
+nav div {
+    display: inline-block;
+    width: 33%;
+}
+
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+nav li a:link, nav li a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+#logo-div h1 {
+    font-size: large;
+    letter-spacing: 5px;
+}
+
+#logigRegister-div span {
+    opacity: 0.4;
+    font-weight: 300;
+}
+
+/* ------------------MAIN------------------ */
+
+.sectionClass {
+    background-color: white;
+}
+
+.sectionClass h3 {
+    color: #11cbd7;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.sectionClass p {
+    font-size: 16px;
+    color: gray;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: left;
+}
+
+/* +++++search-section++++ */
+
+#search-section {
+    background-color: rgba(0, 0, 0, 0.222);
+    padding: 200px 0px;
+    /* background-image: url(https://colorlib.com/preview/theme/university/images/big_image_2.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover; */
+}
+
+#search-section h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    margin: 0 auto 30px;
+}
+
+#search-section form {
+    width: 60%;
+    background-color: white;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+#search-section .formFileds {
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-right: 30px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    color: #495057;
+}
+
+
+#search-section p {
+    color: white;
+    margin: 30px auto;
+}
+
+#regeister-button {
+    font-size: large;
+    padding: 15px 50px;
+    margin-left: auto;
+    border-radius: 3px;
+    background-color: #11CBD7;
+    color: white;
+    border: none;
+}
+
+/* +++++wlc-Section++++ */
+
+#wlc-Section {
+    padding: 90px;
+    text-align: center;
+}
+
+#topDiv-wlcSection {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    height: 311.6px;
+}
+
+#textDiv-wlcSection {
+    width: 49%;
+    display: inline-block;
+}
+
+#textDiv-wlcSection h3 {
+    width: 50%;
+}
+
+#textDiv-wlcSection p {
+    width: 80%;
+    margin: 40px 0;
+}
+
+#vidDiv-wlcSection {
+    display: inline-block;
+    width: 50%;
+}
+
+#bottomDiv-wlcSection {
+    width: 80%;
+    margin: 90px auto 0;
+    text-align: left;
+}
+
+#bottomDiv-wlcSection div {
+    width: 24.5%;
+    display: inline-block;
+    margin: 0;
+}
+
+#bottomDiv-wlcSection div p {
+    margin: 10px 0;
+}
+
+#bottomDiv-wlcSection div button {
+    background-color: white;
+    color: #11CBD7;
+    border: none;
+}
+
+#bottomDiv-wlcSection div button span {
+    margin-left: 10px;
+}
+
+#bottomDiv-wlcSection div button:hover {
+    color: rgba(0, 0, 0, 0.53);
+    border: none;
+}
+
+#bottomDiv-wlcSection div button:hover span {
+    position: relative;
+    animation-name: arrowToRight;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes arrowToRight {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 10px;
+    }
+}
+
+/* +++++eduLife-section++++ */
+
+#eduLife-section {
+    background-color: #F8F9FA;
+    padding: 90px;
+    text-align: center;
+}
+
+#imgDiv-eduLifeSection {
+    width: 39%;
+    height: 409.2px;
+    float: left;
+}
+
+#textDiv-eduLifeSection {
+    display: inline-block;
+    width: 40%;
+    padding: 0 0% 0 2.5%;
+    text-align: left;
+}
+
+#textDiv-eduLifeSection p {
+    margin: 30px 0 80px;
+}
+
+#textDiv-eduLifeSection div {
+    display: inline-block;
+    width: 45%;
+    margin-top: 20px;
+}
+
+#textDiv-eduLifeSection div img {
+    float: left;
+    margin-right: 15px;
+}
+
+#textDiv-eduLifeSection div h4 {
+    color: #11CBD7;
+    font-size: xx-large;
+}
+
+#textDiv-eduLifeSection div p {
+    margin: 10px 0;
+}
+
+/* +++++popularCourses-section++++ */
+
+#popularCourses-section {
+    background-color: #F8F9FA;
+    padding: 90px;
+    text-align: center;
+}
+
+#popularCourses-section>p {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#popularCourses-container {
+    margin: 50px 0;
+}
+
+#popularCourses-container div {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    margin: 0 20px 20px 0;
+}
+
+#popularCourses-container>div:hover {
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+#popularCourses-container div img {
+    width: 100%;
+    height: 288px;
+}
+
+#popularCourses-container div h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 20px;
+}
+
+#popularCourses-container div h4:hover {
+    color: #11CBD7;
+}
+
+#popularCourses-container div p {
+    margin: 0px 20px;
+}
+
+#popularCourses-container div div {
+    margin: 15px 20px;
+    width: 90%;
+}
+
+#popularCourses-container div div p:nth-of-type(1) {
+    margin-left: 0;
+    color: #11CBD7;
+    display: inline-block;
+}
+
+#popularCourses-container div div p:nth-of-type(2) {
+    float: right;
+    text-decoration: line-through;
+}
+
+#popularCourses-container div div .blueBtn {
+    font-size: large;
+    padding: 3px 7px;
+    float: right;
+}
+
+/* +++++teachers-section++++ */
+
+#teachers-section {
+    padding: 90px;
+}
+
+#teachers-section p {
+    width: 50%;
+    margin: 20px auto;
+    /* text-align: center; */
+}
+
+#teachers-section div {
+    position: relative;
+    width: 25%;
+    margin: 20px;
+    display: inline-block;
+    height: 427px;
+    background: linear-gradient(to bottom, #00ff99 0%, #003300 100%);
+    text-align: left;
+}
+
+#teachers-section div h4, #teachers-section div p {
+    color: white;
+}
+
+#teachers-section div h4 {
+    margin: 380px 0 5px 15px;
+}
+
+#teachers-section div p {
+    margin: 0 0 0 15px;
+    font-size: small;
+}
+
+/* +++++blog-Section++++ */
+
+#blog-Section {
+    background-color: #F8F9FA;
+    padding: 5% 15%;
+}
+
+#blog-Section div {
+    display: inline-block;
+}
+
+.bigDiv-blog {
+    width: 50%;
+    background-color: white;
+    height: 480px;
+    float: left;
+    text-align: left;
+}
+
+#blog-Section>p {
+    margin: 20px auto 50px;
+    width: 70%;
+    text-align: center;
+}
+
+.bigDiv-blog h4 {
+    font-size: 20px;
+    font-weight: 300;
+    width: 90%;
+    margin: 15px 0 20px 15px;
+    line-height: 1.5;
+}
+
+.bigDiv-blog p {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 15px 0 20px 15px;
+}
+
+.bigImg-blog {
+    width: 100%;
+    height: 320px;
+}
+
+.small-blog {
+    float: left;
+    margin-right: 15px;
+    height: 100px;
+    width: 150px;
+}
+
+#container-blog {
+    width: 40%;
+    text-align: left;
+}
+
+#container-blog div {
+    margin-bottom: 20px;
+}
+
+#container-blog h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 12px 0;
+}
+
+#container-blog p {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* ------------------footer------------------ */
+
+footer {
+    background-color: white;
+    padding: 50px 10%;
+}
+
+footer div {
+    display: inline-block;
+    text-align: left;
+    margin-right: 20px;
+    width: 24%;
+    vertical-align: text-top;
+}
+
+footer h5 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+
+#div1-footer h4 {
+    font-weight: 300;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+#div1-footer p {
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#div2-footer {
+    width: 20%;
+}
+
+#div2-footer li {
+    display: inline-block;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    width: 70px;
+    color: #0b8890;
+}
+
+#div3-footer a {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+    margin-left: 3px;
+}
+
+#div3-footer p {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 10px 10px 30px 10px;
+    color: gray;
+}
+
+#div3-footer img {
+    margin-right: 5px;
+    vertical-align: -5px;
+}
+
+#div4-footer li {
+    margin-bottom: 40px;
+}
+
+#div4-footer li p {
+    display: inline-block;
+    width: 80%;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 16px;
+    color: gray;
+    margin-left: 20px;
+}
+
+
+
+#div4-footer li img {
+    float: left;
+}
+
+#div5-footer {
+    width: 100%;
+    font-size: 14px;
+    color: gray;
+    margin-top: 50px;
+}
+#div5-footer p {
+    display: inline-block;
+}
+#div5-footer ul {
+    float: right;
+    position: relative;
+    top: -3.5px;
+}
+#div5-footer li {
+    display: inline-block;
+}
